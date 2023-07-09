@@ -10,10 +10,19 @@ If the script is not in dry-run mode, it deletes the files and logs the actions.
 ## Usage
 To use the script, first ensure that the log directory exists or the script has the permissions to create it. Then, you can run it like any other bash script:
 
-```bash
-Copy code
-./cleanup_script.sh
-```
+    1. Open the User Scripts plugin in Unraid.
+    2. Click on "Add New Script".
+    3. Name your new script.
+    4. Open the trailer_cleanup.sh file and copy its content.
+    5. Go back to the User Scripts plugin in Unraid and paste the content into your new script.
+    6. Click "Save Changes".
+    7.Before running the script, ensure to set the search_directory and dry_run variables according to your needs:
+        * search_directory: This should be the path to the directory you want to search.
+        * dry_run: Set this to 1 for a dry run (no files will be deleted), and 0 for an actual run (files will be deleted).
+
+## Important Note
+Please be careful when using scripts that delete files. Always make sure you have a backup of any important files and verify the search_directory and dry_run variables are set correctly before running the script.
+
 ## Configuring the script
 The behavior of the script can be adjusted by modifying the following variables at the top of the script:
 
@@ -26,5 +35,3 @@ The behavior of the script can be adjusted by modifying the following variables 
 * ### log_directory and log_file: 
     Specifies the location of the log file. You can change these to control where the log file is saved.
 
-## Important Note
-Please be careful when using scripts that delete files. Always make sure you have a backup of any important files and verify the search_directory and dry_run variables are set correctly before running the script.
