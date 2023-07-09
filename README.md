@@ -8,7 +8,7 @@ The script then calculates the total size of the found files and prints their na
 If the script is not in dry-run mode, it deletes the files and logs the actions. If it's in dry-run mode, it just prints what would be deleted without actually deleting anything.
 
 ## Usage
-    
+    s
     1. Open the User Scripts plugin in Unraid.
     2. Click on "Add New Script".
     3. Name your new script.
