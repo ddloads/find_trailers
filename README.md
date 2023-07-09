@@ -21,7 +21,7 @@ The behavior of the script can be adjusted by modifying the following variables 
 
 * dry_run: Determines whether the script is running in dry-run mode or not. Set this to 1 for a dry run (no files will be deleted), and 0 for an actual run (files will be deleted).
 
-* #### log_directory and log_file: 
+* ### log_directory and log_file: 
     Specifies the location of the log file. You can change these to control where the log file is saved.
 
 ## Important Note
