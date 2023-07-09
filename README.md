@@ -17,9 +17,11 @@ Copy code
 ## Configuring the script
 The behavior of the script can be adjusted by modifying the following variables at the top of the script:
 
-* search_directory: Specifies the directory to search for files. Set this to the path of the directory you want to search.
+* ### search_directory: 
+    Specifies the directory to search for files. Set this to the path of the directory you want to search.
 
-* dry_run: Determines whether the script is running in dry-run mode or not. Set this to 1 for a dry run (no files will be deleted), and 0 for an actual run (files will be deleted).
+* ### dry_run:
+    Determines whether the script is running in dry-run mode or not. Set this to 1 for a dry run (no files will be deleted), and 0 for an actual run (files will be deleted).
 
 * ### log_directory and log_file: 
     Specifies the location of the log file. You can change these to control where the log file is saved.
